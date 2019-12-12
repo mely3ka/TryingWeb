@@ -1,0 +1,142 @@
+
+
+body{
+	margin:0px;
+	font-family: "Roboto",sans-serif;
+}
+div{
+	width: 100%;
+	position: relative;
+}
+div.header{
+	top:0px;
+	background-color: #007765;
+	background-position: center center;
+	height: 84px;
+}
+div.headimage{
+	background: url('bigheadimge.png');
+	background-size: 100% 100%;
+	height: 403px;
+}
+h1{
+	position: absolute;
+	margin:0px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	bottom: 45%;
+	font-size: 50px;
+	color: #FFFFFF;
+}
+.theproblem-body{
+	width: 100%;
+	background-color:#EEEEEE;
+	height: auto;
+	padding-bottom: 3em;
+}
+div.theproblem-body>p{
+	position: relative;
+	display: inline-block;
+	font-size: 25px;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-bottom: 0.75em;
+}
+h2{
+	position: relative;
+	top: 1em;
+	margin-top: 0px;
+	margin-bottom: 0.75em;
+	font-size: 50px;
+	text-align: center;
+}
+div.hero{
+	background: url('bigbodyimge.png');
+	background-size: cover;
+	height: 403px;
+
+}
+div.quote{
+	display: inline-block;
+	position: absolute;
+	font-size: 40px;
+	left: 22%;
+	top:25%;
+	font-style: italic;
+	color: #FFFFFF;
+	text-align: center;
+	width: 20em;
+}
+
+nav.headermenu{
+	position: absolute;
+	display: inline-block;
+	margin: 0px;
+	top: 39.3%;
+	bottom: 26.2%;
+	right: 4.43%;
+	color: #FFFFFF;
+	font-weight: 600;
+	font-size: 18px;
+}
+li{
+	float: left;
+	list-style: none;
+}
+a.headermenu{
+	text-decoration: none;
+	font-family: "Roboto",sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+
+div.piedpipercoin-body{
+	width: 100%;
+	height: auto;
+	padding-bottom: 3em;
+	padding-right: 10em;
+}
+div.piedpipercoin-body>p{
+	/*position: relative;*/
+	width: 75%;
+	display: inline-block;
+	font-size: 25px;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-bottom: 0.75em;
+}
+
+.clear{
+	clear: both;
+}
+
+img.ppc{
+	height: 115px;
+	width: 115px;
+	margin-left: 55px;
+	margin-right: 55px;
+	float: left;
+}
+
+.hero{
+	background: url('bigbodyimge.png');
+}
+.team-body{
+	background-color:#EEEEEE;
+}
+h2{
+	color: #007765;
+}
+height: 2px #000;theproblem{
+	text-align: center;
+}
+.smalllogo{
+	position: absolute;
+	width: 15.1%;
+	height: 53.6%;
+	left: 4.5%;
+	top: 24.8%;
+	bottom: 22.6%;
+}
