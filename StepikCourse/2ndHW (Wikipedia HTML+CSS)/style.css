@@ -1,0 +1,43 @@
+h1, h2, h3{
+	font-family: sans-serif;
+	margin-top: 1.5em;
+}
+h1{
+	font-size: 32px;
+}
+table{
+	border-collapse: separate;
+	border-width: 1px;
+	border-color: black;
+}
+caption{
+	display:inline-block;
+	position: relative;
+	left: 50%;
+	caption-side: top;
+}
+tbody{
+	text-align: left;
+}
+thead th{
+	text-align: center;
+	font-weight: bold;
+}
+th{
+	font-weight: normal;
+}
+body {
+	position: absolute;
+	right: 15%;
+	width: 70%;
+}
+th.main-left-column{
+	text-align: center ;
+	font-weight: bold ;
+}
+figcaption{
+	font-style: italic;
+}
+figure{
+	float: right;
+}
