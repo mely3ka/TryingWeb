@@ -1,0 +1,132 @@
+body{
+	font-family: "Robotomedium", sans-serif;
+}
+
+div.body{
+	/*width: 1219px;*/
+	width: 100%;
+	position: relative;
+	box-sizing: border-box;
+	font-family: "Robotomedium", sans-serif;
+}
+.header{
+	background-color: #007765;
+	padding: 24px 54px 15px 55px;
+}
+.smalllogo{
+	float: left;
+	display: inline-block;
+	width: 184px;
+	height: 45px;
+}
+nav.headermenu{
+	font-family: "Robotomedium", sans-serif;
+	font-size: 24px;
+	line-height: 28px;
+	color: #FFFFFF;
+	text-align: right;
+	padding: 8px 0px;
+}
+nav.headermenu>a{
+	text-decoration: none;
+	font-family: "Robotomedium", sans-serif;
+	color: #FFFFFF;
+	font-size: 24px;
+	line-height: 28px;
+}
+.clear{
+	clear: both;
+}
+
+div.headimage{
+	background: url("bigheadimge.png");
+	background-size: auto 100%;
+	text-align: center;
+	padding: 160px 0px;
+	color: #FFFFFF;
+	font-size: 72px;
+	line-height: 84px;
+	font-weight: 5;
+}
+h2{
+	font-size: 64px;
+	line-height: 75px;
+	text-align: center;
+	color: #007765;
+}
+div.greybody{
+	padding: 48px 0px 92px 0px;
+	background-color: #EEEEEE;
+}
+div.paragraphcontainer{
+	padding: 0px 80px;
+	margin:0 auto;
+	color: black;
+	font-size: 32px;
+	line-height: 37px;
+}
+
+div.hero{
+	background: url("bigbodyimge.png");
+	background-size: cover;
+	padding: 128px 0px;
+}
+div.quotecontainer{
+	margin: 0 auto;
+	padding: 0 80px;
+}
+div.quote{
+	font-size: 48px;
+	line-height: 56px;
+	font-style: italic;
+	color: #FFFFFF;
+	text-align: center;
+}
+img.ppc{
+	margin-right: 48px;
+	float: left;
+	height: 115px;
+	width: 115px;
+}
+figure{
+	display: inline-block;
+	margin: 0px 30px;
+	text-align: center;
+	padding: 80px 26px;
+}
+img.roundface{
+	height: 168px;
+	width: 168px;
+	margin: 0 auto;
+}
+div.pics{
+	/*display: inline-block;*/
+	/*padding: 0px 80px;*/
+	padding: 0 10px;
+	text-align: center;	
+}
+/*div.triplet{
+	margin: 0 auto;
+}*/
+span.name{
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	color: #007765;
+}
+span.post{
+	font-style: italic;
+	font-size: 18px;
+	line-height: 21px;
+	color: black;
+}
+div.footer{
+	background-color:#333333;
+	padding: 48px 0px 64px;
+}
+div.footerquote{
+	text-align: center;	
+	font-size: 18px;
+	line-height: 21px;
+	color: #FFFFFF;
+}
