@@ -1,0 +1,39 @@
+
+
+@media (min-width: 768px) {
+	h1{
+		font-size: 72px !important;
+	}
+	.card-info-form{
+		font-weight: bold;
+		font-size: 16px !important;
+	}
+	.user-name{
+		margin-bottom: 0.5em;
+		font-size: 20px !important;
+	}
+	.card-header{
+		font-size: 16px !important;
+	}
+
+}
+
+@media (min-width: 991px) {
+	h1{
+		font-size: 72px !important;
+	}
+	.card-info-form{
+		font-weight: bold;
+		font-size: 16px !important;
+	}
+	.user-name{
+		margin-bottom: 0.5em;
+		font-size: 20px !important;
+	}
+	.card-header{
+		font-size: 16px !important;
+	}
+}
+h1{
+	font-family: 'Robotothin',sans-serif !important;
+}
