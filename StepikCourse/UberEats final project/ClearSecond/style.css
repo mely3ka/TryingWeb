@@ -1,0 +1,114 @@
+body{
+	margin: 0px;
+	font-family: "Robotothin", sans-serif;
+}
+/*Хедер*/
+.header-row{
+	padding: 16px 16px;
+	box-shadow: 0px 0px 16px rgba(38, 38, 38, 0.16);
+}
+.header-col-left{
+	margin-left: auto;
+}
+.log-in{
+	height: 40px;
+	width: 78px;
+	border: 1px solid #E0E0E0;
+	border-radius: 2px;
+	background-color: #FFF;
+	color: #1D1D1D;
+}
+.enable-transition{
+	-webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.enable-transition:hover{
+	-webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+.log-in:hover{
+	cursor:pointer;
+	background-color: rgba(90,90, 90, 0.05);
+}
+.bucket{
+	height: 40px;
+	width: 40px;
+	margin-left: 1rem;
+}
+/*Тело страницы*/
+.page-body{
+	padding: 55px 16px;
+}
+/*Строка поиска*/
+.search{
+	width: 100%;
+	border-color: #757575;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+	border-width: 1px;
+	color: #626262;
+	font-size: 16px;
+	line-height: 24px;
+}
+.search:hover{
+	font-size:103%;
+	color: #505050;
+}
+.focus-outline-none:focus{
+	outline: none;
+}
+/*Карты ресторанов*/
+.cards-title-container{
+	margin: 56px 0px 16px;
+}
+/*Заголовок списка с картами*/
+.cards-title{
+	color: #1D1D1D;
+	font-size: 22px;
+	line-height: 34px;
+}
+/*Непосредственно элементы карточек*/
+.rest-card:hover{
+	background-color: rgba(90,90, 90, 0.05);
+}
+.card-pic{
+	width: 100%;
+	height:100%;
+}
+.card-pic:hover{
+	width: 105%;
+	height:105%;
+}
+.card-rest-name{
+	font-size: 16px;
+	line-height: 24px;
+	color: #1D1D1D;
+}
+.card-delivery-time{
+	font-size: 13px;
+	line-height: 21px;
+	color: #1D1D1D;
+}
+.card-tags{
+	padding: 0px;
+}
+.tag{
+	display: inline;
+	font-size: 14px;
+	line-height: 21px;
+	color: #626262;
+}
+.tag:before{
+	content:"\2022";
+}
+.tag-first:before{
+	content:none;
+}
+.nomargin{
+	margin:4px 0px;
+}
+
+

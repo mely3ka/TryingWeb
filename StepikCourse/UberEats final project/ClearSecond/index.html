@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>UberEats</title>
+	<link rel="stylesheet" href="vendor/roboto_font/roboto.css">
+	<link rel="stylesheet" href="https://unpkg.com/flexboxgrid2@7.2.1/flexboxgrid2.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<!-- Хедер. Логотип, кнопка входа, корзина -->
+	<div class="header-row">
+		<div class="container">
+			<div class="row middle-xs between-xs">
+				<div class="col">
+					<a href="#" class="logo"><img src="vendor/pics/logo.svg" alt=""></a>
+				</div>
+				<div class="col header-col-left">
+					<a href="#"><button class="log-in focus-outline-none enable-transition">Войти</button></a>
+				</div>
+				<div class="col hidden-xs">
+					<a href="#" class="bucket"><img  src="vendor/pics/basket.svg" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Тело страницы. Строка поиска, список ресторанов -->
+	<div class="page-body">
+		<div class="container">
+
+			<!-- Строка поиска -->
+			<div class="search-container">
+				<div class="row">
+					<div class="search">
+						<form>
+							<input class="search focus-outline-none enable-transition" type="text" placeholder="Поиск по ресторанам и кухням" size="100%">
+						</form>
+					</div>
+				</div>
+			</div>
+
+			<div class="cards-title-container">
+				<div class="row">
+					<h1 class="cards-title">Рестораны в Москве</h1>
+				</div>
+			</div>
+			<div class="cards-container">
+				<div class="row">
+					<div class="col-lg-4 col-md-6 col-xs-12">
+					<div class="row">
+						<div class="col">
+							<div class="rest-card">
+								<a href="#"><img class="card-pic enable-transition" src="vendor/pics/Mcdonalds.png" alt=""></a>
+								<div class="rest-description">
+									<h2 class="card-rest-name nomargin">Макдоналдс-Газетный</h2>
+									<ul class="card-tags nomargin">
+										<li class="tag-first tag">₽₽</li>
+										<li class="tag">Бургеры</li>
+									</ul>
+									<div class="card-delivery-time nomargin">25 - 35 мин</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+			</div>
+
+			
+
+
+
+		</div>
+	</div>
+
+</body>
+</html>
